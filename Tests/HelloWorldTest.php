@@ -15,5 +15,10 @@ class HelloWorldTest extends \PHPUnit_Framework_TestCase
 
         $this->assertEquals('Hello Bar', $helloWorld->hello('Bar'));
     }
+
+    public function testArray()
+    {
+        $this->assertEquals([], array());
+    }
 }
 
