@@ -12,4 +12,9 @@ env:
   - TESTING_FRAMEWORK=PHPUnit
   - TESTING_FRAMEWORK=Behat
 
+before_script:
+  - pyrus
+  - phpenv
+  - php-build
+  - phpfarm
 script: sh run-test.sh
