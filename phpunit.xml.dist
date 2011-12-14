@@ -12,6 +12,7 @@
             <directory>./</directory>
             <exclude>
                 <directory>./Tests</directory>
+                <directory>./features</directory>
             </exclude>
         </whitelist>
     </filter>
