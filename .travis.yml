@@ -15,6 +15,5 @@ env:
 before_script:
   - pyrus
   - phpenv
-  - php-build
   - phpfarm
 script: sh run-test.sh
