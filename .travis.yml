@@ -8,4 +8,8 @@ php:
   # or just the major version
   - 5.4
 
+env:
+  TESTING_FRAMEWORK=PHPUnit
+  TESTING_FRAMEWORK=Behat
+
 script: sh run-test.sh
