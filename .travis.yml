@@ -7,3 +7,5 @@ php:
   - 5.3.8
   # or just the major version
   - 5.4
+
+script: sh run-test.sh
