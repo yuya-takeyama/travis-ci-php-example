@@ -28,7 +28,7 @@ class FeatureContext extends BehatContext
      */
     public function foo()
     {
-        throw new \RuntimeException();
+        // Pass
     }
 
     /**
@@ -36,7 +36,7 @@ class FeatureContext extends BehatContext
      */
     public function bar()
     {
-        throw new PendingException();
+        // Pass
     }
 
     /**
@@ -44,6 +44,6 @@ class FeatureContext extends BehatContext
      */
     public function say($argument1)
     {
-        throw new PendingException();
+        // Pass
     }
 }
