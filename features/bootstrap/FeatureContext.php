@@ -36,6 +36,7 @@ class FeatureContext extends BehatContext
      */
     public function bar()
     {
+        return [];
         // Pass
     }
 
