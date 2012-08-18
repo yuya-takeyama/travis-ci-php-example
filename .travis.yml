@@ -15,6 +15,6 @@ env:
 before_script:
   - pyrus
   - phpenv versions
-  - "php -r 'echo '$_ENV', PHP_EOL; var_dump($_ENV);'"
+  - "php -r 'echo \'$_ENV\', PHP_EOL; var_dump($_ENV);'"
 
 script: sh run-test.sh
