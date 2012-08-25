@@ -3,18 +3,7 @@ language: php
 
 # list any PHP version you want to test against
 php:
-  # specify the extend version
-  - 5.3.8
-  # or just the major version
+  - 5.3
   - 5.4
-
-env:
-  - TESTING_FRAMEWORK=PHPUnit
-  - TESTING_FRAMEWORK=Behat
-
-before_script:
-  - pyrus
-  - phpenv versions
-  - php test.php
 
 script: sh run-test.sh
